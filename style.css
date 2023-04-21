@@ -63,8 +63,6 @@ button {
 .headbtn:hover,
 .dropbtn:hover {
   text-shadow: 0px 0px 15px whitesmoke, 0 0 1em whitesmoke, 0 0 0.2em whitesmoke;
-  /* color: rgba(55, 54, 51, 1); */
-  /* transition: all 2s ease-out 100ms; */
 }
 
 @keyframes focus-in {
@@ -96,15 +94,12 @@ header {
 h1 {
   font-size: 1.5rem;
   font-family: "Playfair Display", serif;
-  /* color: rgba(16,0,43,1); */
   color: whitesmoke;
   text-shadow: 0px 0px 2px rgba(16, 0, 43, 1);
   text-align: center;
   padding: 0;
   margin: 0;
   border: 0;
-  /* position: sticky;
-  top:0; */
 }
 
 .buttons-flex {
@@ -126,25 +121,15 @@ h1 {
 }
 
 .dropdown {
-  /* cursor: pointer;
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0; */
+
 }
 
 .dropdown-content {
-  /* display: none; */
   opacity: 0;
   height: 0;
   width: 1rem;
   position: absolute;
   background-color: rgba(16, 0, 43, 1);
-  /* min-width: 160px; */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   transition: width 0.5s 0.3s ease, height 0.2s 0s ease, opacity 0.2s 0s;
